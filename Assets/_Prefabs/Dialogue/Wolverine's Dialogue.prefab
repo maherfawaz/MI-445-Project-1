@@ -1,0 +1,245 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3478098486635749317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3478098486635749316}
+  - component: {fileID: 3478098486635749319}
+  - component: {fileID: 3478098486635749318}
+  - component: {fileID: 3478098486635749312}
+  - component: {fileID: 3478098486635749313}
+  - component: {fileID: 6749627595695305121}
+  m_Layer: 0
+  m_Name: Wolverine's Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3478098486635749316
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 106.82, y: 18.4, z: 88.75}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3478098486635749319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e116798ffd7a949aecb434d70b32c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueToPlayBack:
+  - speaker: {fileID: 11400000, guid: 64ee615e36f97764b92531fc1d54ca6d, type: 2}
+    dialogueSentences:
+    - sentence: Who are you? This town belongs to the wolverines now.
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 6749627595695305121}
+            m_TargetAssemblyTypeName: ObjectInstantiator, Assembly-CSharp
+            m_MethodName: InstantiateGameObject
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 927206789939349188, guid: 65a955b6bf33ede4f9565d53f548376b, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: e05b5d8e454ced846b39399a1a6e1cb0, type: 2}
+    dialogueSentences:
+    - sentence: "Cleardale is owned by no one, let alone an evil wolverine! If you
+        don\u2019t leave now you\u2019re going to have to see me go nuts."
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls:
+          - m_Target: {fileID: 6749627595695305121}
+            m_TargetAssemblyTypeName: ObjectInstantiator, Assembly-CSharp
+            m_MethodName: InstantiateGameObject
+            m_Mode: 2
+            m_Arguments:
+              m_ObjectArgument: {fileID: 927206789939349188, guid: dcb9c97aca3acac4e917186a23ef71ba, type: 3}
+              m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+              m_IntArgument: 0
+              m_FloatArgument: 0
+              m_StringArgument: 
+              m_BoolArgument: 0
+            m_CallState: 2
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: 64ee615e36f97764b92531fc1d54ca6d, type: 2}
+    dialogueSentences:
+    - sentence: "I see what you did there with the pun - these jokes will not be
+        a distraction to me! Let\u2019s brawl if that\u2019s what it takes for you
+        to leave!"
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: e05b5d8e454ced846b39399a1a6e1cb0, type: 2}
+    dialogueSentences:
+    - sentence: Out of curiositree, did you like the pun?
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: 64ee615e36f97764b92531fc1d54ca6d, type: 2}
+    dialogueSentences:
+    - sentence: 'That one was worse.. '
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: e05b5d8e454ced846b39399a1a6e1cb0, type: 2}
+    dialogueSentences:
+    - sentence: 'Cut me some slack, not every joke lands. '
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: 64ee615e36f97764b92531fc1d54ca6d, type: 2}
+    dialogueSentences:
+    - sentence: 'Hey did you hear about the squirrel who got arrested? He was foraging
+        checks! '
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: e05b5d8e454ced846b39399a1a6e1cb0, type: 2}
+    dialogueSentences:
+    - sentence: Haha! Wait, now you are distracting me! I walnut be backing down
+        from this fight!
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: 64ee615e36f97764b92531fc1d54ca6d, type: 2}
+    dialogueSentences:
+    - sentence: "Get out of here you pipsqueak! I\u2019m done listening to these
+        acorn-y jokes."
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  - speaker: {fileID: 11400000, guid: e05b5d8e454ced846b39399a1a6e1cb0, type: 2}
+    dialogueSentences:
+    - sentence: "That is it - I won\u2019t let you critter-size me! Let\u2019s go!"
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  pauseOnTrigger: 1
+  playOnStart: 0
+--- !u!114 &3478098486635749318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75315fcd61ae5224ab7dfb3a386860c9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3478098486635749312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd59af6e066bca549a66e28c551c35cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueHolder: {fileID: 3478098486635749319}
+  playOnce: 1
+  alreadyPlayed: 0
+  setToInactiveAfterPlay: 0
+--- !u!65 &3478098486635749313
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5.8896027, y: 4.0703297, z: 3.026413}
+  m_Center: {x: -0.35697174, y: -0.8294306, z: -0.5208664}
+--- !u!114 &6749627595695305121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3478098486635749317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a96aed5d0045c0e419586c2e5242bbb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

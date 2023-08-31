@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2017054210347574218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017054210347574216}
+  - component: {fileID: 2017054210347574219}
+  m_Layer: 0
+  m_Name: Intro Dialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017054210347574216
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017054210347574218}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2017054210347574219
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017054210347574218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1e116798ffd7a949aecb434d70b32c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueToPlayBack:
+  - speaker: {fileID: 11400000, guid: bcf5df1fadbec1f49b726b0e07d3677d, type: 2}
+    dialogueSentences:
+    - sentence: One day, a fearless squirrel warrior, Lex Ekorn, was venturing through
+        the forest heading towards their homeland of Cleardale.
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+    - sentence: Lex had heard rumors villages were being attacked by a vicious enemy
+        and knew it was their duty to protect the town
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+    - sentence: The hero knew they had to hurry back, but the forest proved more
+        difficult to traverse than Lex originally thought...
+      leaveAtEndOfSentence: 0
+      dialgoueSpritePosition: 0
+      eventsWhenStartingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+      eventsWhenFinishingDialogueString:
+        m_PersistentCalls:
+          m_Calls: []
+  pauseOnTrigger: 1
+  playOnStart: 1
