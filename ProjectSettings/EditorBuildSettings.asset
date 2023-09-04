@@ -12,7 +12,7 @@ EditorBuildSettings:
     path: Assets/__Scenes/Build Scenes/Level 1.unity
     guid: ecbd61000b20c544f91337504d5c4877
   - enabled: 1
-    path: Assets/__Scenes/Build Scenes/Overworld.unity
-    guid: 16eb0342efcd51b43b216038dff2396d
+    path: Assets/__Scenes/Build Scenes/Level 2.unity
+    guid: 8a1faca96ed309f4f8e00f71e1cb2bb5
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: b5d44fafc3377dc4d9bea8686108cfa3, type: 2}
