@@ -9,9 +9,10 @@ EditorBuildSettings:
     path: Assets/__Scenes/Build Scenes/MainMenu.unity
     guid: 7cf24170b2707e34986619f0b48f47b6
   - enabled: 1
+    path: Assets/__Scenes/Build Scenes/Level 1.unity
+    guid: ecbd61000b20c544f91337504d5c4877
+  - enabled: 1
     path: Assets/__Scenes/Build Scenes/Overworld.unity
     guid: 16eb0342efcd51b43b216038dff2396d
-  - enabled: 1
-    path: Assets/__Scenes/Build Scenes/Combat Scene.unity
-    guid: 04d3d7a07fa16834088c4160d66b4527
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: b5d44fafc3377dc4d9bea8686108cfa3, type: 2}
