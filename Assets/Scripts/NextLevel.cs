@@ -20,6 +20,12 @@ public class NextLevel : MonoBehaviour
     void OnCollisionEnter(Collision coll)
     {
         print("Colided");
-        if (coll.gameObject.CompareTag("Player")) SceneManager.LoadScene(sceneNext);
+        if (coll.gameObject.CompareTag("Player"))
+        {
+            if (sceneNext == 4)
+            {
+                SceneManager.LoadScene("MainMenu");
+            } else SceneManager.LoadScene(sceneNext);
+        }
     }
 }
