@@ -12,7 +12,6 @@ public class NextLevel : MonoBehaviour
     void Start()
     {
         scene = SceneManager.GetActiveScene(); // Gets active scene
-        sceneCurrent = scene.buildIndex; // Sets sceneCurrent to number of the active scene
         sceneNext = scene.buildIndex + 1; // Sets sceneNext to number of the next scene
     }
 
@@ -24,8 +23,9 @@ public class NextLevel : MonoBehaviour
         {
             if (sceneNext == 4)
             {
-                SceneManager.LoadScene("MainMenu");
-            } else SceneManager.LoadScene(sceneNext);
+                Application.Quit();
+            }
+            else SceneManager.LoadScene(sceneNext);
         }
     }
 }

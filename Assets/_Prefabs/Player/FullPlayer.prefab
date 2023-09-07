@@ -563,7 +563,7 @@ MonoBehaviour:
       m_Action: Interact
       m_Flags: 0
     m_Flags: 0
-  jumpEffect: {fileID: 4610668429884910356, guid: bd60e9343e8f16844a9ae2d0f78c8c15, type: 3}
+  jumpEffect: {fileID: 0}
 --- !u!114 &7529959961961454569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -571,7 +571,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5545586045073684904}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f294ed48fd289449897c9beed780fa9, type: 3}
   m_Name: 
