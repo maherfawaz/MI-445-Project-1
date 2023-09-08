@@ -8,6 +8,7 @@ public class NextLevel : MonoBehaviour
     public Scene scene; // Current scene
     public int sceneCurrent; // Current scene number
     public int sceneNext; // Next scene number
+    public GameObject fullPlayer; // Full player
 
     void Start()
     {
@@ -25,7 +26,11 @@ public class NextLevel : MonoBehaviour
             {
                 Application.Quit();
             }
-            else SceneManager.LoadScene(sceneNext);
+            else
+            {
+                Destroy(fullPlayer);
+                SceneManager.LoadScene(sceneNext);
+            }
         }
     }
 }
