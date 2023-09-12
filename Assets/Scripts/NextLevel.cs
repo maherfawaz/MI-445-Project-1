@@ -22,13 +22,13 @@ public class NextLevel : MonoBehaviour
         print("Colided");
         if (coll.gameObject.CompareTag("Player"))
         {
+            Destroy(fullPlayer); // I do want it to destroy on load tyvm
             if (sceneNext == 4)
             {
-                Application.Quit();
+                SceneManager.LoadScene("MainMenu"); // Return to main menu once final level is completed
             }
             else
             {
-                Destroy(fullPlayer);
                 SceneManager.LoadScene(sceneNext);
             }
         }
